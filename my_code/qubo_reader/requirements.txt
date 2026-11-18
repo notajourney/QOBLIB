@@ -1,0 +1,6 @@
+# QOBLib single-instance QUBO Reader
+# Environment validated with Python 3.12.3
+# All 32 reader unit tests passed in this environment.
+
+dimod==0.12.23
+networkx==3.7

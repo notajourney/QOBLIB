@@ -21,3 +21,16 @@ target/
 /.idea/QOBLIB.iml
 /.idea/vcs.xml
 /.idea/workspace.xml
+
+# Added by me
+
+# Local extracted datasets and research prompts
+/extracted_qb/
+/prompts/
+
+# Ignore other personal scripts, but allow the QUBO Reader package
+/my_code/*
+!/my_code/qubo_reader/
+# Reproducible QUBO dataset setup
+!/my_code/extract_qubos.py
+!/my_code/bootstrap_qubo_reader.sh
